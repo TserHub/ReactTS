@@ -1,10 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-interface IProps {
-  message: string;
-}
+import { IProps } from './data';
 
 const App: React.FC<IProps> = ({ message }) => {
   return (
