@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { IProps } from './data';
+import FormDemo from './pages/form';
 
 const App: React.FC<IProps> = ({ message }) => {
   return (
@@ -19,6 +20,9 @@ const App: React.FC<IProps> = ({ message }) => {
           {message}
         </a>
       </header>
+      <main>
+        <FormDemo />
+      </main>
     </div>
   );
 };
